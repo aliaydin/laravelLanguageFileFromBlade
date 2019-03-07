@@ -10,6 +10,5 @@ Blade dosyalarında geçen metinler, language helperı olan `{{ __('key') }}` ş
 `langenerator.php` dosyasını `/public` dizini altına atıp browserdan çağırabilirsiniz. Üretilen kodu copy/paste ile language dosyasına taşımalısınız.
 
 Todo:
-- dinamik değer alan çeviriler için regex düzenlenecek
 - view altındaki tüm dizinleri dolaşıp dosyaları otomatik üretebilir
-- view dosyalarında metin geçen yerleri tespit edip, helper metodunu script ekleyebilir
+- view dosyalarında metin geçen yerleri tespit edip, helper metodunu otomatik ekleyebilir
