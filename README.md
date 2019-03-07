@@ -5,6 +5,10 @@ Belli bir aşamaya gelmiş Laravel projenizi çok dilli yapıya taşımanız ger
 
 Blade dosyalarında geçen metinler, language helperı olan `{{ __('key') }}` şeklinde düzenlenir. View lerde geçen helperlar için, language dosyasında çevirileri key=>value şeklinde elle girmek yerine repodaki script ile view dosyanızı taratabilir ve geçen helperlar için çeviri array ınızı otomatik üretebilirsiniz.
 
+### Kullanım
+
+`langenerator.php` dosyasını `/public` dizini altına atıp browserdan çağırabilirsiniz. Üretilen kodu copy/paste ile language dosyasına taşımalısınız.
+
 Todo:
 - dinamik değer alan çeviriler için regex düzenlenecek
 - view altındaki tüm dizinleri dolaşıp dosyaları otomatik üretebilir
