@@ -5,7 +5,7 @@ $file = 'index.blade.php';
 
 $content = file_get_contents($path . $file);
 
-preg_match_all('/({{ __\(\')(.*)(\.)(.*)(\')(.*)(\) }})/', $content, $matches);
+preg_match_all('/({{ __\(\')(.*)(\.)(.+?)(\')(.*)(}})/', $content, $matches);
 
 $arrays = [];
 foreach ($matches[2] as $index => $result) {
